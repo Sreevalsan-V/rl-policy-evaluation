@@ -125,7 +125,7 @@ print('Reaches goal {:.2f}%. Obtains an average undiscounted return of {:.4f}.'.
 
 # Create your own policy
 pi_2 = lambda s: {
-    0:LEFT, 1:RIGHT, 2:RIGHT, 3:LEFT, 4:LEFT, 5:RIGHT, 6:LEFT
+    0:LEFT, 1:RIGHT, 2:LEFT, 3:RIGHT, 4:LEFT, 5:LEFT, 6:RIGHT
 }[s]
 print_policy(pi_2, P, action_symbols=('<', '>'), n_cols=7)
 # Find the probability of success and the mean return of you your policy
