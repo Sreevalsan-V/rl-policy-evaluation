@@ -188,7 +188,7 @@ else:
 
 ![alt text](image-4.png)
 
-### Policy 1:
+### Policy 2:
 
 ![alt text](image-6.png)
 
