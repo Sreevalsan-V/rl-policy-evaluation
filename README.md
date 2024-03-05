@@ -1,5 +1,6 @@
 # POLICY EVALUATION
-
+# DEVELOPED BY: SREEVALSAN V
+# REGISTER NUMBER: 212223240158
 ## AIM
 To develop a Python program to evaluate the given policy.
 
@@ -138,7 +139,11 @@ print('Reaches goal {:.2f}%. Obtains an average undiscounted return of {:.4f}.'.
 # The implementation of first code has resulted in success rate of 3% while the second policy has resulted in improving the result of reaching the goal. The success rate for second policy is 30%.
 ~~~
 ### Policy Evaluation:
+
 ```py
+
+# DEVELOPED BY: SREEVALSAN V
+# REGISTER NUMBER: 212223240158
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
     prev_V = np.zeros(len(P), dtype=np.float64)
     # Write your code here to evaluate the given policy
